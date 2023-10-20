@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    border:7px solid rgb(252, 252, 252);
+    /*---*/ 
+    font-size: 18px;
+    background-color: #f0f0f0;
+    
+}
+
+.phonepe-app {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:rgb(243, 223, 243);
+    box-shadow: 0 0 10px purple(0, 0, 0, 0.1);
+}
+
+.app-header {
+    background-color:purple;
+    color: #e8dbe5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header img {
+    height: 40px;
+}
+
+.app-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+h3 select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-container i:hover{
+    align-self: start;
+
+}
+.app-header li {
+    margin: 0 15px;
+}
+
+.app-header a {
+    text-decoration: none;
+    color: #e6dae9;
+}
+
+.app-content {
+    padding: 20px;
+}
+
+.app-footer {
+    background-color:purple;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    background-color:purple;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right:600px;
+    
+}
+.container{
+    height: 200px;
+    width:200px;
+    background-color: purple;
+    box-sizing: border-box;
+    border:10px purple;
+    margin:0;
+    padding:0;
+    border-radius: 20px 20px 30px 40px;  
+}
+#myContainer ul{
+      
+        list-style-type: none;
+        margin: 300;
+        padding: 300;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+      /*  height: 100px;
+        width:100px;*/   
+}
+#myContainer li {
+    
+        display: inline;
+         align-items: center;
+         justify-content: space-between;
+         margin: 0 90px;
+         background: rgb(65, 2, 65);
+         
+}
+#myContainer .icon:hover{
+    box-shadow: 0  0 11px 11px  purple;
+}
+#myContainer li a i{
+    color:#fff;
+}
+#myContainer{
+    border-radius: 30px 30px 40px 40px; 
+}
+h5{
+    margin-left: 20px;
+}
+footer{
+    background-color: rgb(199, 219, 238);
+    text-align: center;
+    font-family: cursive;
+    color:rgb(104, 98, 98);
+    border-radius: 1%;
+    text-rendering: auto;
+    
+    
+}
+#myContainer li:hover{
+   box-shadow: 0 0 11px 11px rgb(237, 183, 237);
+   box-decoration-break: clone;
+}
+.logo{
+    border:15px solid rgb(52, 170, 224);
+    border-radius: 15%;
+    border-width: 30%;
+    color:#fff;
+    background: rgb(74, 125, 222);
+    justify-content:center;
+}
+.logo:hover{
+    box-sizing: border-box;
+    box-shadow: 0 0 11px 11px rgb(63, 199, 223);
+}
+.foot{
+    border:9px rgb(6, 218, 233);
+    border-radius:5px;
+}
+/* Container with a height of 30vh */
+.icon-container {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 30px 40px; 
+}
+
+/* Style for the top and bottom icon rows */
+.top-icons, .bottom-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Style for individual icons */
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(71, 3, 71);
+}
+span{
+    color:black;
+}
+
+.icon i {
+    font-size: 2rem; /* Adjust the icon size as needed */
+}
+
+.icon span {
+    margin-top: 5px;
+    font-weight: bold;
+}
+ /*----------------------------------------------------------*/
+
+ 
+ /* Container with a class name "icon-container1" and a height of 10vh */
+ /* Container with a class name "icon-container1" and a height of 10vh */
+.icon-container1 {
+    border:5px white;
+    height: 10vh;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px solid red;
+}
+
+/* Style for the icon row */
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Style for individual icons */
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.icon i {
+    font-size: 2rem; /* Adjust the icon size as needed */
+}
+
+.icon span {
+    margin-top: 5px;
+    font-weight: bold;
+}
+/*footer*--------------------------------------------------------------/
+/* Style for the footer */
+.footer {
+    background-color: rgb(244, 239, 244);
+    color: grey;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px; 
+}
+
+/* Style for individual icons and their names */
+.footer-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color:grey;
+    border-radius: 2px grey;
+}
+.footer p{
+    box-shadow: 0 0 11px 11px rgb(214, 153, 240);
+}
+.footer-icon i {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer-icon span {
+    font-weight: normal;
+    color:grey;
+    justify-content: space-between;
+}
+
+/* Media query for screens between 992px and 1200px (laptops) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    /* Adjust other styles for laptops */
+}
+
+/* Media query for screens smaller than 992px (tablets) and iPhone landscape */
+@media screen and (max-width: 991px) {
+    body {
+        font-size: 14px;
+        
+    }
+    /* Adjust other styles for tablets and iPhone landscape */
+}
+
+/* Media query for iPhone portrait (up to iPhone 8 Plus) */
+@media screen and (max-width: 414px) {
+    body {
+        font-size: 12px;
+    }
+    /* Adjust other styles for iPhone portrait */
+}
+
+/* Media query for iPhone X and newer models (375px width) */
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 10px;
+    }
+    /* Adjust other styles for iPhone X and newer models */
+}
+/*---------------------------------------------------------------------*/
+
+/* Target Android devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+    /* Your CSS styles for smaller screens, including Android devices */
+  }
+  
+  /* Target Android devices in landscape orientation */
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+    .footer-icon i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .my1container i{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Your CSS styles for Android devices in landscape orientation */
+  }
+  
+    .app-header {
+        background-color:purple;
+        color: #e8dbe5;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+
+    .app-header {
+        background-color:purple;
+         color: #e8dbe5;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+
+   
+
